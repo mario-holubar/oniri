@@ -1,5 +1,5 @@
 [container]
-image = "docker.io/archlinux/archlinux@sha256:e686f41388b64360807b7f14b5535187baa5ffaea6646c857b1c8f2b17a0b1f9"
+image = "docker.io/archlinux/archlinux@sha256:0c3bc1a2c84688a195b17a513059c1e5d621d70fe005a7a7ed5279c748b45d0a"
 
 [[package]]
 name = "compiler-rt"
@@ -8,14 +8,6 @@ system = "archlinux"
 url = "https://archive.archlinux.org/packages/c/compiler-rt/compiler-rt-22.1.5-1-x86_64.pkg.tar.zst"
 sha256 = "247d72e99e3ebbd46f8e14e162a6d162bdfcedf500af61b5a426aaab668e5320"
 signature = "iHUEABYKAB0WIQTS6V/sAVzx+RGqqww9TFAIu1yNKQUCafy6uwAKCRA9TFAIu1yNKW0eAQCtpYK/Klh3WdzGiDlzLd9IIQ/JoKHpUSJJWgEw24dXvQD9E9ZycrdYnou5D7fiNRW/QdjhnZasOGOQTLpR5OYcTgA="
-
-[[package]]
-name = "curl"
-version = "8.20.0-7"
-system = "archlinux"
-url = "https://archive.archlinux.org/packages/c/curl/curl-8.20.0-7-x86_64.pkg.tar.zst"
-sha256 = "9a09dc5796e83f129d032b1d831a85b276f8fba50f430ba143993a9ed02351c1"
-signature = "iHUEABYKAB0WIQQhkbiUMbrAqLlt6T0kR0DRfH/Q7AUCagQFsgAKCRAkR0DRfH/Q7OwhAP9B0lR3HVc+slsyqzSpNWbDQm1NthqqC+FLqBHikFtunQD/RpOcbEoR3dziSTCpRd4RLqhVjFwsdoEigyInVd2qNAU="
 
 [[package]]
 name = "gcc"
@@ -56,6 +48,14 @@ system = "archlinux"
 url = "https://archive.archlinux.org/packages/l/libmpc/libmpc-1.4.1-1-x86_64.pkg.tar.zst"
 sha256 = "880bdba957ebe5136449c7b61821e92628d7bdd43f370e5a0818d229372d3851"
 signature = "iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmnhAlsACgkQek52CV2KUuSBcgf9E61NpAV+F+wHPlOgZOT9yurZAhQwUNd4SRQkNEFrbyMJ1C3Bu9vUayr05Q+MxeQ8/J0W5aACrWSOEAtvYlu9vfmzbn7/S9rHtH9fmvmj46hZemo48cVTq9YTQA1Doe5e9j3DTOWdEsWv7XCMSIXGI2RdIXYB+TH1DLNi7B95EwDySH7SpznjH+SGv9ttVMsmAChRbGR3fIVi6hz6OgSGErFJJmTI5jwt06U6L7Yhl/4ybvYXuh1DGhdFpNhJBGLcYmQhBhv3OGa2dwj051fEjneL2PK80u4nmc+3dP7cOW3pY8jBDpOVfRvnAwiY/NuJMK1YK3iFd3YbYQnuu1D2cQ=="
+
+[[package]]
+name = "libnsl"
+version = "2.0.1-2"
+system = "archlinux"
+url = "https://archive.archlinux.org/packages/l/libnsl/libnsl-2.0.1-2-x86_64.pkg.tar.zst"
+sha256 = "4ba7b85b42fbda5a1f07e15b8f91c60faa4c5f9168cc27d49fcd20e3a3be8bd8"
+signature = "iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCagTnhQAKCRCbeih9mi7GCDN3AP0Yw8i2ltzdbfDWBI7G8PkupBsWbdPVgtk4iMzM2X2e1AEA/ZaCdHasuRDn/iXGiHAMv2Po//LZy1L7h1gLDeRW7Ag="
 
 [[package]]
 name = "lld"

@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v1.2.2](https://github.com/Antiz96/oniri/releases/tag/v1.2.2) - 2026-05-16
+
+### Fixes
+
+- *(tiling layout)* Unmaximize window after moving to another workspace ([#53](https://github.com/Antiz96/oniri/pull/53)) - ([edfb1da](https://github.com/Antiz96/oniri/commit/edfb1da9e269fc85295579e126b532fbc276bbda)) by @mario-holubar
+
+### Miscellaneous
+
+- *(build)* Document reproducible builds for pre-compiled release binary ([#51](https://github.com/Antiz96/oniri/pull/51)) - ([155bc91](https://github.com/Antiz96/oniri/commit/155bc912cfd3b1153c431e9592209c1c1e832854)) by @Antiz96
+- *(ci)* Add cleanup stage ([#50](https://github.com/Antiz96/oniri/pull/50)) - ([67015eb](https://github.com/Antiz96/oniri/commit/67015eb81ff56f3f4b1c039f23cb9116ab3fcd60)) by @Antiz96
+- *(deps)* Lock file maintenance ([#47](https://github.com/Antiz96/oniri/pull/47)) - ([8b87f49](https://github.com/Antiz96/oniri/commit/8b87f49296a6dcaa355e8677b51fcb0eaa32f4e0)) by @renovate[bot]
+- *(deps)* Update Rust crate assert_cmd to 2.2.2 ([#44](https://github.com/Antiz96/oniri/pull/44)) - ([ab99c78](https://github.com/Antiz96/oniri/commit/ab99c7867504c52aa2711f374b7c3b99132c7e89)) by @renovate[bot]
+- *(release)* Switch repro-env image to the default archlinux tag ([#54](https://github.com/Antiz96/oniri/pull/54)) - ([cc92a89](https://github.com/Antiz96/oniri/commit/cc92a89cacd0b78abf7f8d43a0bb9f0268de2dad)) by @Antiz96
+- *(release)* Use repro-env to build release binary ([#49](https://github.com/Antiz96/oniri/pull/49)) - ([358707a](https://github.com/Antiz96/oniri/commit/358707a26da2fead368b932c957e62bd8094d305)) by @Antiz96
+- *(renovate)* Relax lockFileMaintenance schedule ([#52](https://github.com/Antiz96/oniri/pull/52)) - ([893f0bd](https://github.com/Antiz96/oniri/commit/893f0bdc38f64bb79ed932c106aeeaacf3cac632)) by @Antiz96
+- *(renovate)* Relax schedule for lockfile maintenance ([#46](https://github.com/Antiz96/oniri/pull/46)) - ([193c723](https://github.com/Antiz96/oniri/commit/193c723bb13f6fd59e36387bd8d47ce432c30c42)) by @Antiz96
+- *(renovate)* Enable lockfile maintenance ([#45](https://github.com/Antiz96/oniri/pull/45)) - ([ebae2e6](https://github.com/Antiz96/oniri/commit/ebae2e6c25c11793c8c3544678b22bcc60ff041f)) by @Antiz96
+- Update sponsor links ([#48](https://github.com/Antiz96/oniri/pull/48)) - ([c296287](https://github.com/Antiz96/oniri/commit/c29628786370087fdc9f7abfb026f5b2c1eee758)) by @Antiz96
+
 ## [v1.2.1](https://github.com/Antiz96/oniri/releases/tag/v1.2.1) - 2026-05-10
 
 ### Fixes
